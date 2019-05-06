@@ -610,6 +610,10 @@ Order By SchoolName</CommandText>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
+            <RepeatColumnHeaders>true</RepeatColumnHeaders>
+            <RepeatRowHeaders>true</RepeatRowHeaders>
+            <FixedColumnHeaders>true</FixedColumnHeaders>
+            <FixedRowHeaders>true</FixedRowHeaders>
             <DataSetName>Students</DataSetName>
             <Top>0.675in</Top>
             <Height>0.75in</Height>
