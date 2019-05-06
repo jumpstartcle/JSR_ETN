@@ -331,6 +331,13 @@ Order By SchoolName</CommandText>
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!StudentFullName.Value</Value>
+                                  <ActionInfo>
+                                    <Actions>
+                                      <Action>
+                                        <Hyperlink>="https://jumpstart.my.salesforce.com/"&amp;Fields!StudentContactId.Value</Hyperlink>
+                                      </Action>
+                                    </Actions>
+                                  </ActionInfo>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -606,7 +613,7 @@ Order By SchoolName</CommandText>
             <DataSetName>Students</DataSetName>
             <Top>0.675in</Top>
             <Height>0.75in</Height>
-            <Width>9.67708in</Width>
+            <Width>9.67709in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -716,7 +723,7 @@ Order By SchoolName</CommandText>
         <Height>1.425in</Height>
         <Style />
       </Body>
-      <Width>9.67708in</Width>
+      <Width>10.67709in</Width>
       <Page>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
